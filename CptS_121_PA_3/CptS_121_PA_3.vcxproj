@@ -142,6 +142,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="pa3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pa3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="input.dat" />
+    <None Include="output.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
